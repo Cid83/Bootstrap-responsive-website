@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bootstrap Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" />
+<style>
+  .card{
+    transition: all 0.3s;
+  }
+  .card:hover{
+    transform: translate(10px,-10px);
+    transition: all 0.5s ;
+    box-shadow: 2px 2px 20px black;
+  }
+</style>
+
+  </head>
+
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand  fw-bold " href="#">B&S DESIGN</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/education.html"> Trainings</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html"> Contact</a>
+              </li>
+             
+            </ul>
+          
+            <div class="btn-group">
+              <a href="/register.html" class="btn btn-info ">Register</a>
+              <a href="/register.html" class="btn btn-success">Enter</a>
+
+             </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+ <!-- HOMEPAGE -->
+
+
+    <!-- HERO -->
+    <div class="container my-5">
+      <div class="row border p-3 rounded shadow">
+          <div class="col-lg-6  col-sm-12 d-flex flex-column justify-content-center">
+
+              <h1>Evereything is here!!!</h1>
+              <p>Lorem ipsum dolor sit amet consectetur
+                , adipisicing elit. Consequatur commodi 
+                magnam, iusto voluptas optio laudantium 
+                neque illum praesentium velit. Impedit 
+                consectetur facere, eum aliquid velit 
+                magnam, iusto voluptas optio laudantium 
+                neque illum praesentium velit. Impedit 
+                consectetur facere, eum aliquid velit 
+                debitis sequi nulla minima quas.</p>
+          </div>
+          <div class="col-lg-6  col-sm-12 d-flex align-items-center justify-content-center">
+
+            <img src="images/banner.png" class="w-100 img-fluid" style="max-width:400px ;"  alt="">
+          </div>
+      </div>
+  </div>
+
+   <!-- CARDS -->
+
+   <div class="d-flex justify-content-center gap-5 flex-wrap ">
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-head d-flex align-items-center justify-content-center" style="height: 290px;">
+        <img src="images/front-end.jpg" class="w-100" >
+        </div>
+
+        <div class="card-body d-flex flex-column justify-content-between">
+          <h1 class="card-title text-center">Frontend</h1>
+          <p class="card-text ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde praesentium ab asperiores odio voluptatibus porro dolore, vel quod magnam non consequatur hic soluta ea. Natus cumque nostrum neque veniam ipsam?</p>
+          <a href="#" class="btn btn-primary">More</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-head d-flex align-items-center justify-content-center" style="height: 290px;">
+        <img src="images/quality.jpg" class="w-100" >
+        </div>
+
+        <div class="card-body d-flex flex-column justify-content-between">
+          <h1 class="card-title text-center">Frontend</h1>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde praesentium ab asperiores odio voluptatibus porro dolore, vel quod magnam non consequatur hic soluta ea. Natus cumque nostrum neque veniam ipsam?</p>
+          <a href="#" class="btn btn-primary">More</a>
+        </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-head d-flex align-items-center justify-content-center" style="height: 290px;">
+        <img src="images/front-end.jpg" class="w-100" >
+        </div>
+
+        <div class="card-body d-flex flex-column justify-content-between">
+          <h1 class="card-title text-center">Frontend</h1>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde praesentium ab asperiores odio voluptatibus porro dolore, vel quod magnam non consequatur hic soluta ea. Natus cumque nostrum neque veniam ipsam?</p>
+          <a href="#" class="btn btn-primary">More</a>
+        </div>
+    </div>
+   </div>
+
+
+   <div class="container col-lg-6  col-sm-12 d-flex flex-column justify-content-center border my-3" style="width: 800px;" >
+
+    <h1 class="text-center bg-dark text-bg-dark">WHAT CAN WE DO?</h1>
+
+    <div class="row border p-2 bg-warning  align-items-sm-center justify-content-sm-center">
+     <div class="col-lg-4 col-sm-12 border">
+      <h1>Only Reals</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia enim ducimus nobis natus reprehenderit est itaque. Minus, unde. Reprehenderit culpa aspernatur reiciendis, maiores fuga dicta odio minima? Placeat, optio sunt!</p>
+     </div>
+     <div class="col-lg-4 col-sm-12 border">
+      <h1>Only Reals</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia enim ducimus nobis natus reprehenderit est itaque. Minus, unde. Reprehenderit culpa aspernatur reiciendis, maiores fuga dicta odio minima? Placeat, optio sunt!</p>
+     </div>
+     <div class="col-lg-4 col-sm-12 border">
+      <h1>Only Reals</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia enim ducimus nobis natus reprehenderit est itaque. Minus, unde. Reprehenderit culpa aspernatur reiciendis, maiores fuga dicta odio minima? Placeat, optio sunt!</p>
+     </div>
+  </div>
+
+   </div>
+
+
+    <!-- FOOTER -->
+
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2023 B&S Design Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap Scrip Kodları -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" ></script>
+</body>
+</html>
